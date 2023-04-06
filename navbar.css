@@ -1,0 +1,51 @@
+header {
+    position: fixed;
+    top: 0; 
+    left: 0;
+    background-color: plum; 
+    width: 100vw;
+    z-index: 10;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    font-family: sans-sarif;
+}
+
+main {
+    margin-top: 100px;
+}
+
+.parent {
+    width: 200px;
+    height: 300px;
+    background-color: blue;
+    position: relative;
+
+}
+
+.child {
+    width: 70px;
+    height: 70px;
+    background-color: yellow;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+
+img {
+    display: none;
+}
