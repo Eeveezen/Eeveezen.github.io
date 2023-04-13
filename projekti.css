@@ -1,0 +1,35 @@
+header {
+    position: fixed;
+    top: 0; 
+    left: 0;
+    background-color: rgb(135, 85, 135); 
+    width: 100vw;
+    z-index: 10;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0;
+
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    font-family: impact;
+}
+
+main {
+    margin-top: 100px;
+}
+
+nav {
+    position: relative;
+}
