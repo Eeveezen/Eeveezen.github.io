@@ -2,7 +2,7 @@ header {
     position: fixed;
     top: 0; 
     left: 0;
-    background-color: plum; 
+    background-color: rgb(176, 57, 57); 
     width: 100vw;
     z-index: 10;
 }
@@ -30,65 +30,6 @@ main {
     margin-top: 100px;
 }
 
-.parent {
-    width: 200px;
-    height: 300px;
-    background-color: blue;
-    position: absolute;
-
-}
-
-.child {
-    width: 70px;
-    height: 70px;
-    background-color: yellow;
-    position: absolute;
-    top: 30px;
-    left: 40px;
-}
-
-img {
-    display: none;
-} 
-
-input {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    width: 42px;
-    height: 42px;
-}
-
-input:hover {
-    cursor: pointer;
-}
-
 nav {
     position: relative;
-}
-
-@media (max-width: 400px) {
-    img {
-        display: block;
-    }
-    ul {
-        position: absolute;
-        top: 40;
-        left: 0;
-        background-color: plum;
-        flex-direction: column;
-        gap: 20px;
-        width: 100px;
-        height: 100px;
-        align-items: center;
-        display: none;
-    }
-    input:checked + ul {
-        display: flex;
-    }
-    input {
-        display: block;
-    }
 }
